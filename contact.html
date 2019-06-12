@@ -3,10 +3,65 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <titl>Hikers Guide</titl>
+        <title>Hikers Guide</title>
     </head>
     <body>
-        <h1>Body of the page.</h1>
-        <p>Your content always belongs within the body of the page.</p>
+        <header>
+            <!-- Logo-->
+            <h1><a href="index.html"><img src="images/hikersGuide.png" alt="Hikers Guide Logo"></a></h1>
+
+            <!-- Navigation-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <form action="" method="post">
+                <h2>Contact Us</h2>
+                <fieldset>
+                    <!-- User Info -->
+                    <p>
+                        <label for="fullName">Name:</label>
+                        <input type="text" name="fullName" id="fullName">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="tel" name="phoneNumber" id="phoneNumber">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <!-- Message -->
+                    <p>
+                        <label for="message">Message:</label>
+                        <input type="text" name="message" id="message">
+                    </p>
+                </fieldset>
+                <button>Submit</button>
+            </form>
+        </section>
+        <footer>
+            <ul>
+                <!-- Float Left -->
+                <li>HIKERS GUIDE, INC</li>
+                <li><a href="#">PRIVACY</a></li>
+                <li><a href="#">TERMS</a></li>
+                <li><a href="#">NEWSLETTER</a></li>
+                <!-- Float Right -->
+                <li><a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook Icon">Facebook</a></li>
+                <li><a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter Icon">Twitter</a></li>
+                <li><a href="https://youtube.com"><img src="images/youtube.png" alt="Youtube Icon">Youtube</a></li>
+                <li><a href="https://google.com"><img src="images/google.png" alt="Go to google plus.">Google Plus</a></li>
+                <li><a href="https://instagram.com"><img src="images/instagram.png" alt="Go to instagram.">Instagram</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
