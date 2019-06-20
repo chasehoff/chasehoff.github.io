@@ -3,5 +3,141 @@
 ================================================== */
 
 html {
-	
+    /* Set Font Size to 10 */
+    font-size: 62.5%;
+}
+#features img {
+    width: 100%;
+}
+body {
+    /* Set Font to match Syle Guide "Program OT" along with color, and background color */
+    color: #888888;
+    font: 1.4rem 'Program OT', Arial, sans-serif;
+    background-color: #222222;
+}
+h1, h2, h3 {
+    /* Set all Headers up to h3 to uppercase */
+    text-transform: uppercase;
+}
+h3, h4, h5 {
+    /* Set to bold due to style guide */
+    font-weight: bold;
+}
+h2 {
+    font-weight: 800;
+    font-size: 3.5rem; /* 35px */
+}
+h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #cccccc;
+}
+h4 {
+    font-size: 1.8rem;
+    color: #aaaaaa;
+}
+h5 {
+    font-size: 1.4rem;
+    color: #aaaaaa;
+}
+/* Navigation */
+#cta h1 {
+    float: left;
+}
+#cta nav {
+    float: right;
+}
+/* CTA Starting Here */
+#cta article {
+    text-align: right;
+    margin-right: 6rem;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+/* Blog Posts are starting here */
+section, footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+section::after {
+    content: '';
+    display: block;
+    clear: left;
+}
+#features article {
+    width: calc(100%/3 - 6rem/3);
+    background-color: #111111;
+    padding: 2rem;
+    float: left;
+    margin-bottom: 3rem;
+    height: 57.5rem;
+}
+#features article:nth-of-type(3n+4){
+    clear: left;
+}
+#features article:not(:nth-of-type(3n+3)){
+    margin-right: 3rem;
+}
+#features button { /* Center View More Button */
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Join the Adventure */
+#adventure {
+    padding: 8rem;
+}
+#adventure h3 {
+    padding-bottom: 1rem;
+}
+#adventure #two {
+    padding-top: 8rem;
+    text-align: center;
+}
+
+
+/* Hikers, Events, About US CSS */
+#misc #events, #new-hikers {
+    width: 30%;
+    float: left;
+    padding-left: 5rem;
+}
+#misc #about {
+    width: 40%;
+    float: left;
+}
+footer .left, .right {
+    width: calc(100%/2);
+    float: left;
+}
+#misc h2 {
+    font-size: 1.8rem;
+    border-bottom: 1px solid gray;
+}
+/* Contact Page */
+header h2, h3 {
+    text-align: center;
+}
+header h3 {
+    padding-bottom: 5rem;
+}
+
+/*Events Page */
+#event img {
+    width: 100%;
+}
+#event article {
+    width: calc(100%/3 - 6rem/3);
+    background-color: #111111;
+    padding: 2rem;
+    float: left;
+    margin-bottom: 3rem;
+    height: 57.5rem;
+}
+#event article:nth-of-type(3n+4){
+    clear: left;
+}
+#event article:not(:nth-of-type(3n+3)){
+    margin-right: 3rem;
 }
