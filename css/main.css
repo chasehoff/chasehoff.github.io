@@ -40,22 +40,70 @@ h5 {
     font-size: 1.4rem;
     color: #aaaaaa;
 }
-/* Navigation */
-#cta h1 {
-    float: left;
+footer {
+    background-color: black;
 }
-#cta nav {
+.right ul {
+    
+}
+.right li {
+    display: inline-block;
+}
+.left li {
+    display: inline-block;
+}
+/* Navigation */
+
+header h1 {
+    float: left;
+    padding-top: 2rem;
+}
+nav {
     float: right;
 }
+nav li {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 6rem;
+    padding-right: 1rem;
+    border-right: .1rem solid #aaaaaa;
+    text-transform: uppercase;
+    opacity: 50%;
+}
+nav li a {
+    color: #aaaaaa;
+}
+nav li a:hover {
+    color: white;
+}
+nav li .active {
+    color: white;
+}
 /* CTA Starting Here */
-#cta article {
-    text-align: right;
-    margin-right: 6rem;
-    padding-top: 10rem;
-    padding-bottom: 6rem;
+#bg-index {
+    background: #222222 url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/hikers1001.jpg') no-repeat top center;
+}
+#bg-index article {
+    width: 60%;
+    margin-left: 40%;
+    background-color: #111111;
+}
+header article h2, h3, p {
+    text-align: left;
 }
 /* Blog Posts are starting here */
-section, footer {
+#features .wrapper::before {
+    content: '';
+    display: block;
+    width: 50%;
+    background: url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/mountain.png') no-repeat left top;
+    background-size: 100% auto;
+    position: absolute;
+    bottom: calc(100%-2px);
+    left: -10rem;
+}
+section, .wrapper {
     max-width: 900px;
     margin: 0 auto;
 }
@@ -81,19 +129,40 @@ section::after {
 #features button { /* Center View More Button */
     display: block;
     margin: 0 auto;
+    background-color: #222222;
+    padding: .8rem;
+    color: #888888;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #888888;
 }
 
 
 /* Join the Adventure */
+#bg-adventure {
+    margin-top: 4rem;
+    background: #222222 url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/hikers1001.jpg') no-repeat top center;
+}
 #adventure {
     padding: 8rem;
 }
-#adventure h3 {
-    padding-bottom: 1rem;
+#adventure h3, blockquote {
+    text-align: left;
 }
-#adventure #two {
-    padding-top: 8rem;
+#signup {
+    background-color: #111111;
+    margin-bottom: 4rem;
+}
+#signup p {
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    background-color: #333333;
+}
+#signup a {
+    color: #1abc9c;
+    font-weight: bold;
 }
 
 
@@ -116,14 +185,10 @@ footer .left, .right {
     border-bottom: 1px solid gray;
 }
 /* Contact Page */
-header h2, h3 {
-    text-align: center;
-}
-header h3 {
-    padding-bottom: 5rem;
-}
 
-/*Events Page */
+/*              Events Page             */
+/*                                      */
+/*                                      
 #event img {
     width: 100%;
 }
@@ -140,4 +205,59 @@ header h3 {
 }
 #event article:not(:nth-of-type(3n+3)){
     margin-right: 3rem;
+}
+
+/*                                          */
+/*               Blog Page                  */
+/*                                          */
+#bg-blog {
+    background: #222222 url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/hikers1002.jpg') no-repeat top center;
+}
+#blog-welcome h2 {
+    text-align:  center;
+    padding-top: 12 rem;
+}
+
+main ul {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+main ul li {
+    display: inline-block;
+    padding-right: .8rem;
+    text-transform: uppercase;
+}
+main ul li a {
+    color: #cccccc;
+}
+main li:first-of-type, li:nth-of-type(2) {
+    border-right: 1px solid gray;
+} 
+main img {
+    width: 100%;
+}
+
+/*========== Blog Section ==========*/
+.timeline h3 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-weight: normal;
+    border-bottom: 1px solid gray;
+}
+.timeline ul li {
+    display: inline-block;
+}
+.timeline article {
+    width: calc(100%/2 - 10rem/2);
+    background-color: #111111;
+    padding: 2rem;
+    float: left;
+    margin-bottom: 3rem;
+    height: 57.5rem;
+}
+.timeline article:nth-of-type(2n+3){
+    clear: left;
+}
+.timeline article:not(:nth-of-type(2n+2)){
+    margin-right: 10rem;
 }

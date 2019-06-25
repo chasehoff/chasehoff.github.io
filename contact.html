@@ -10,8 +10,8 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
-        <section id="cta-contact">
-            <header>
+        <div class="wrapper">
+            <header id="header-home">
                 <!-- Logo-->
                 <h1><a href="index.html"><img src="images/hikersGuide.png" alt="Hikers Guide Logo"></a></h1>
 
@@ -21,50 +21,54 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="events.html">Events</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a class="active" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-                <h2>Let's Connect</h2>
-                <h3>We love watching you beat your goals!</h3>
+                <center>
+                    <h2>Let's Connect</h2>
+                    <h3>We love watching you beat your goals!</h3>
+                </center>
             </header>
-        </section>
-        <section>
-            <form action="" method="post">
-                <h2>Contact Us</h2>
-                <fieldset>
-                    <!-- User Info -->
-                    <p>
-                        <label for="fName">First Name*</label>
-                        <input type="text" name="fName" id="fName">
-                    </p>
-                    <p>
-                        <label for="lName">Last Name*</label>
-                        <input type="text" name="lName" id="lName">
-                    </p>
-                    <p>
-                        <label for="email">Email(<a href="https://google.com">Privacy Policy</a>)*</label>
-                        <input type="email" name="email" id="email">
-                    </p>
-                    <p>
-                        <label for="company">Company*</label>
-                        <input type="text" name="company" id="company">
-                    </p>
-                </fieldset>
-                <fieldset>
-                    <!-- Message -->
-                    <p>
-                        <label for="message">Tell us more about yourself:*</label>
-                        <input type="text" name="message" id="message">
-                    </p>
-                </fieldset>
-                <button>Send Message</button>
-            </form>
-            <img src="design/maps.jpg" alt="Directions to get to the lucky pebbles farm.">
-            <p>Two Logan Square<br>Suite #820<br>Philadelphia, PA 19103</p>
-            <ul>
-                <li><a href="#">info@thoseclimbers.com</a></li>
-                <li><a href="#">555-555-5555</a></li>
-            </ul>        
+        </div>      
+        <section id="recent-posts">
+            <div class="wrapper">
+                <form action="" method="post">
+                    <h2>Contact Us</h2>
+                    <fieldset>
+                        <!-- User Info -->
+                        <p>
+                            <label for="fName">First Name*</label>
+                            <input type="text" name="fName" id="fName">
+                        </p>
+                        <p>
+                            <label for="lName">Last Name*</label>
+                            <input type="text" name="lName" id="lName">
+                        </p>
+                        <p>
+                            <label for="email">Email(<a href="https://google.com">Privacy Policy</a>)*</label>
+                            <input type="email" name="email" id="email">
+                        </p>
+                        <p>
+                            <label for="company">Company*</label>
+                            <input type="text" name="company" id="company">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <!-- Message -->
+                        <p>
+                            <label for="message">Tell us more about yourself:*</label>
+                            <input type="text" name="message" id="message">
+                        </p>
+                    </fieldset>
+                    <button>Send Message</button>
+                </form>
+                <img src="design/maps.jpg" alt="Directions to get to the lucky pebbles farm.">
+                <p>Two Logan Square<br>Suite #820<br>Philadelphia, PA 19103</p>
+                <ul>
+                    <li><a href="#">info@thoseclimbers.com</a></li>
+                    <li><a href="#">555-555-5555</a></li>
+                </ul>
+            </div>    
         </section>
         <footer>
             <ul>
