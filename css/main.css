@@ -60,6 +60,7 @@ header h1 {
 }
 nav {
     float: right;
+    margin-bottom: 12rem;
 }
 nav li {
     display: inline-block;
@@ -81,31 +82,55 @@ nav li .active {
     color: white;
 }
 /* CTA Starting Here */
-#bg-index {
-    background: #222222 url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/hikers1001.jpg') no-repeat top center;
-}
-#bg-index article {
-    width: 60%;
-    margin-left: 40%;
-    background-color: #111111;
-}
-header article h2, h3, p {
-    text-align: left;
-}
-/* Blog Posts are starting here */
-#features .wrapper::before {
-    content: '';
-    display: block;
-    width: 50%;
-    background: url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/mountain.png') no-repeat left top;
-    background-size: 100% auto;
-    position: absolute;
-    bottom: calc(100%-2px);
-    left: -10rem;
-}
 section, .wrapper {
+    position: relative;
     max-width: 900px;
     margin: 0 auto;
+}
+#bg-index {
+    background: #222222 url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/hikers1001.jpg') no-repeat top center;
+    background-size: 100% auto;
+    padding-bottom: 15rem;
+}
+#locations {
+    width: 60%;
+    margin-left: 35%;
+    margin-right: 5%;
+    background-color: #111111;
+    padding: 1rem;
+    clear: right;
+    border-right: 4px solid #1abc9c;
+}
+#locations h2, h3, p {
+    text-align: left;
+}
+#locations h2 {
+    width: 80%;
+    margin-top: 1rem;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#locations h3 {
+    text-transform: capitalize;
+    padding-top: 1.5rem;
+}
+#locations p {
+    padding-bottom: .5rem;
+}
+/* Blog Posts are starting here */
+#features {
+    max-width: none;
+    background: #222222;
+}
+#features .wrapper::before {
+    content:'';
+    display: block;
+    width: 70%;
+    height: 12rem;
+    background: url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/mountain.png') no-repeat left bottom;
+    background-size: 100% auto;
+    position: absolute;
+    bottom: calc(100% - 2px);
 }
 section::after {
     content: '';
