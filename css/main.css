@@ -42,21 +42,38 @@ h5 {
 }
 footer {
     background-color: black;
+    height: 5rem;
+}
+.right, .left {
+    padding-top: 1rem;
+    text-align: center;
 }
 .right ul {
-    
+    text-align: center;
 }
 .right li {
     display: inline-block;
+    font-size: 0;
 }
 .left li {
     display: inline-block;
+    border-right: 1px solid gray;
+    padding-right: .5rem;
+}
+.left li a {
+    color: gray;
+}
+.left li:nth-of-type(4) {
+    border: none;
 }
 /* Navigation */
 
 header h1 {
     float: left;
     padding-top: 2rem;
+}
+header article {
+    clear: right;
 }
 nav {
     float: right;
@@ -87,10 +104,18 @@ section, .wrapper {
     max-width: 900px;
     margin: 0 auto;
 }
-#bg-index {
+#bg-index, #bg-blog {
     background: #222222 url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/hikers1001.jpg') no-repeat top center;
     background-size: 100% auto;
     padding-bottom: 15rem;
+}
+#blog-welcome {
+    clear: right;
+}
+#blog-welcome h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: #222222;
 }
 #locations {
     position: relative;
@@ -113,6 +138,7 @@ section, .wrapper {
 }
 #locations h3 {
     text-transform: capitalize;
+    text-align: left;
     padding-top: 1.5rem;
 }
 #locations p {
@@ -137,14 +163,12 @@ section, .wrapper {
     top: calc(50% - 2rem);
 }
 .pagination li:first-of-type button {
-    position: fixed;
+    position: absolute;
     left: 10rem;
-    top: 25rem;
 }
 .pagination li:last-of-type button {
-    position: fixed;
-    right: 10rem;
-    top: 25rem;
+    position: absolute;
+    right: 98rem;
 }
 /* Blog Posts are starting here */
 #features {
@@ -174,15 +198,17 @@ section::after {
     margin-bottom: 3rem;
     height: 57.5rem;
 }
-#features article .read-more {
+.read-more {
     margin-left: 38%;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    text-align: center;
     color: white;
     background-color: #1abc9c;
     padding: .8rem;
     border-bottom: 4px solid #16a085;
+}
+#features article p {
+    padding-bottom: 1rem;
 }
 #features article:nth-of-type(3n+4){
     clear: left;
@@ -207,15 +233,34 @@ section::after {
     margin-top: 4rem;
     background: #222222 url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/hikers1001.jpg') no-repeat top center;
 }
+.cover {
+    background-color: rgba(26, 188, 156, .6);
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+#adventure, h3, p, blockquote {z-index: 3;}
 #adventure {
     padding: 8rem;
+}
+#adventure p {
+    font-style: italic;
 }
 #adventure h3, blockquote {
     text-align: left;
 }
+#adventure h5 {
+    z-index: 4;
+    background-image: url('/images/twitter.png');
+    height: 3rem;
+    width: 3rem;
+}
 #signup {
     background-color: #111111;
     margin-bottom: 4rem;
+    color: white;
 }
 #signup p {
     text-align: center;
@@ -223,6 +268,7 @@ section::after {
     padding-bottom: 1rem;
     font-size: 1.8rem;
     background-color: #333333;
+    border-top: 1rem solid #111111;
 }
 #signup a {
     color: #1abc9c;
@@ -247,14 +293,44 @@ footer .left, .right {
 #misc h2 {
     font-size: 1.8rem;
     border-bottom: 1px solid gray;
+    text-transform: capitalize;
+}
+#misc {
+    padding-bottom: 5rem;
+}
+#events article {
+    padding-bottom: 2rem;
+}
+#events article:nth-of-type(1) {
+    padding-top: 2rem;
+}
+#hikers li {
+    padding-bottom: 3rem;
+    background-image: url('/images/user.png') no-repeat center left;
+    background-size: 100% auto;
+}
+#hikers li:nth-of-type(1) {
+    padding-top: 2rem;
+}
+#about h6 {
+    padding-top: 2rem;
+    font-weight: bold;
+    color: gray;
 }
 /* Contact Page */
 
 /*              Events Page             */
 /*                                      */
 /*                                      */
+
 #event img {
     width: 100%;
+}
+#events-welcome h2, h3 {
+    text-align: center;
+}
+#events-welcome {
+    padding-bottom: 10rem;
 }
 #event article {
     width: calc(100%/3 - 6rem/3);
@@ -281,7 +357,9 @@ footer .left, .right {
     text-align:  center;
     padding-top: 12 rem;
 }
-
+#blog-welcome h3 {
+    text-align: center;
+}
 main ul {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -321,4 +399,17 @@ main img {
 }
 .timeline article:not(:nth-of-type(2n+2)){
     margin-right: 10rem;
+}
+/*                                          */
+/*              Contact Page                */
+/*                                          */
+#bg-contact {
+    background: #16a085 url('/images/hikers1003.jpg') no-repeat top center;
+    background-size: 100% auto;
+}
+#bg-contact h2 {
+    clear: right;
+}
+#bg-contact h3 {
+    padding-bottom: 10rem;
 }
