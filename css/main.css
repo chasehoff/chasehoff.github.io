@@ -413,3 +413,54 @@ main img {
 #bg-contact h3 {
     padding-bottom: 10rem;
 }
+#contact-us {
+    margin-top: 3rem;
+}
+#contact-us h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+form {
+    width: calc(70% - 2rem);
+    background-color: #333333;
+}
+form p {
+    display: inline-block;
+}
+input {
+    font-size: 1.8rem;
+    border: 2px solid #16a085;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+input[name=fName], input[name=email], input[name=message] {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    clear: right;
+}
+input[name=message] {
+    width: 47.3rem;
+    height: 15rem;
+    text-align: start;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+input[name=message] label::placeholder{
+    text-align: start;
+}
+input[name=fName], input[name=lName], input[name=email], input[name=company], input[name=message] {
+    float: left;
+    overflow: auto;
+}
+form label {
+    font-size: 0;
+}
+form button {
+    text-align: center;
+    color: white;
+    background-color: #1abc9c;
+    border-bottom: 4px solid #16a085;
+    padding: .5rem;
+    margin-left: 38%;
+    margin-bottom: 2rem;
+}
