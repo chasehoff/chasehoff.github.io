@@ -175,6 +175,9 @@ section, .wrapper {
     max-width: none;
     background: #222222;
 }
+#features h3 {
+    text-align: left;
+}
 #features .wrapper::before {
     content:'';
     display: block;
@@ -196,19 +199,15 @@ section::after {
     padding: 2rem;
     float: left;
     margin-bottom: 3rem;
-    height: 57.5rem;
 }
 .read-more {
-    margin-left: 38%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     color: white;
     background-color: #1abc9c;
     padding: .8rem;
     border-bottom: 4px solid #16a085;
 }
 #features article p {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 #features article:nth-of-type(3n+4){
     clear: left;
@@ -217,6 +216,7 @@ section::after {
     margin-right: 3rem;
 }
 #features button { /* Center View More Button */
+    clear: left;
     display: block;
     margin: 0 auto;
     background-color: #222222;
@@ -294,6 +294,7 @@ footer .left, .right {
     font-size: 1.8rem;
     border-bottom: 1px solid gray;
     text-transform: capitalize;
+    margin-bottom: 2rem;
 }
 #misc {
     padding-bottom: 5rem;
@@ -301,19 +302,15 @@ footer .left, .right {
 #events article {
     padding-bottom: 2rem;
 }
-#events article:nth-of-type(1) {
-    padding-top: 2rem;
-}
 #hikers li {
-    padding-bottom: 3rem;
-    background-image: url('/images/user.png') no-repeat center left;
-    background-size: 100% auto;
+    padding-bottom: 4rem;
+    background: url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/user.png') no-repeat center left;
+    background-size: 4rem 4rem;
+    background-position: 0 0;
+    padding-left: 5rem;
 }
-#hikers li:nth-of-type(1) {
-    padding-top: 2rem;
-}
+
 #about h6 {
-    padding-top: 2rem;
     font-weight: bold;
     color: gray;
 }
