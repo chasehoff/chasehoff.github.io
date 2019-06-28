@@ -319,9 +319,31 @@ footer .left, .right {
 /*              Events Page             */
 /*                                      */
 /*                                      */
+#bg-event {
+    background: #1abc9c;
+}
 
 #event img {
     width: 100%;
+}
+#event h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#event dl {
+    padding-top: 2rem;
+}
+#event dd {
+    padding-bottom: .5rem;
+}
+#event dt {
+    color: white;
+    font-weight: bold;
+}
+#event h3 {
+    text-align: left;
+    color: #1abc9c;
+    padding-bottom: 1rem;
 }
 #events-welcome h2, h3 {
     text-align: center;
@@ -335,7 +357,6 @@ footer .left, .right {
     padding: 2rem;
     float: left;
     margin-bottom: 3rem;
-    height: 57.5rem;
 }
 #event article:nth-of-type(3n+4){
     clear: left;
@@ -343,7 +364,22 @@ footer .left, .right {
 #event article:not(:nth-of-type(3n+3)){
     margin-right: 3rem;
 }
-
+#create-event {
+    background: #1abc9c;
+    max-width: none;
+}
+#create-event h2, p, a {
+    text-align: center;
+    color: #111111;
+}
+#create-event p {
+    line-height: 3rem;
+}
+#create-event a {
+    border: 1px solid #111111;
+    margin-top: 2rem;
+    padding: .5rem;
+}
 /*                                          */
 /*               Blog Page                  */
 /*                                          */
@@ -353,9 +389,11 @@ footer .left, .right {
 #blog-welcome h2 {
     text-align:  center;
     padding-top: 12 rem;
+    color: #111111;
 }
 #blog-welcome h3 {
     text-align: center;
+    color: #111111;
 }
 main ul {
     padding-top: 2rem;
@@ -389,7 +427,6 @@ main img {
     padding: 2rem;
     float: left;
     margin-bottom: 3rem;
-    height: 57.5rem;
 }
 .timeline article:nth-of-type(2n+3){
     clear: left;
@@ -413,44 +450,39 @@ main img {
 #contact-us {
     margin-top: 3rem;
 }
+#contact-us img {
+    width: 40%;
+    display: inline-block;
+}
 #contact-us h2 {
     text-align: center;
     text-transform: capitalize;
 }
 form {
-    width: calc(70% - 2rem);
+    width: calc(50% - 2rem);
     background-color: #333333;
 }
+form label {
+    display: block;
+}
 form p {
-    display: inline-block;
+    margin-left: 2rem;
 }
 input {
     font-size: 1.8rem;
     border: 2px solid #16a085;
     margin-bottom: 2rem;
-    width: 100%;
-}
-input[name=fName], input[name=email], input[name=message] {
-    margin-right: 1rem;
-    margin-left: 2rem;
-    clear: right;
+    width: calc(50% - 3rem);
 }
 input[name=message] {
-    width: 47.3rem;
+    width: calc(100% - 3rem);
     height: 15rem;
-    text-align: start;
-    white-space: pre-wrap;
-    overflow-wrap: break-word;
 }
-input[name=message] label::placeholder{
-    text-align: start;
+input[name=fName], input[name=email] {
+    margin-right: 2rem;
 }
 input[name=fName], input[name=lName], input[name=email], input[name=company], input[name=message] {
     float: left;
-    overflow: auto;
-}
-form label {
-    font-size: 0;
 }
 form button {
     text-align: center;
