@@ -369,8 +369,7 @@ footer .left, .right {
     max-width: none;
 }
 #create-event h2, p, a {
-    text-align: center;
-    color: #111111;
+    text-align: left;
 }
 #create-event p {
     line-height: 3rem;
