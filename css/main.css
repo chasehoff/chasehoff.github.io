@@ -1,0 +1,90 @@
+html{
+    font-size: 62.5%;
+    background-color: whitesmoke;
+    font-family: "Agenda", "Times New Roman";
+}
+h2 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 1.6rem;
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+    width: 100%;
+}
+.container {
+    max-width: 900px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hidden {
+    font-size: 0rem;
+}
+nav {
+    width: 100%;
+    background-color: white;
+    clear: right;
+    padding-bottom: 7rem;
+    object-fit: contain;
+}
+nav img {
+    float: left;
+    height: 65.75px;
+    width: 115.25;
+    padding-left: 2rem;
+}
+nav ul {
+    float: right;
+    vertical-align: middle;
+    padding-top: 3rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: lightslategray;
+}
+nav ul li {
+    display: inline-block;
+    padding-right: 2rem;
+    font-size: 1.8rem;
+    color: lightslategrey;
+    text-transform: uppercase;
+}
+nav ul li .active {
+    background-color: #aaaaaa;
+}
+.index-header {
+    background: red url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/frank-mckenna-127338-unsplash.jpg') no-repeat;
+    background-size: 100%;
+}
+.index-header h4 {
+    padding-top: 10rem;
+}
+.index-header h3 {
+    padding-bottom: 6rem;
+}
+.index-header h4, h2, h3 {
+    text-align: center;
+}
+#ind-header-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8rem;
+}
+#btn-about, #btn-contact {
+    font-size: 1.8rem;
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+    border: 2px solid white;
+    border-radius: .6rem;
+}
+#btn-about{
+    margin-right: 10rem;
+    background-color: #0170BB;    
+}

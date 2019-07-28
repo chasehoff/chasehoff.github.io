@@ -9,79 +9,88 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-<header>
-    <nav>
-        <a href="index.html"><img src="images/Logo.png" alt="Company Logo"></a>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#">NFPA Codes</a>
+<header class="wrapper">
+    <div class="container">
+        <div class="index-header">
+            <nav>
+            <img src="images/Logo.png" alt="Company Logo">
                 <ul>
-                    <li><a href="nfpa_11.html">NFPA 11</a></li>
-                    <li><a href="nfpa_16.html">NFPA 16</a></li>
-                    <li><a href="nfpa_25.html">NFPA 25</a></li>
-                    <li><a href="nfpa_30.html">NFPA 30</a></li>
-                    <li><a href="nfpa_409.html">NFPA 409</a></li>
-                    <li><a href="nfpa_418.html">NFPA 418</a></li>
-                    <li><a href="nfpa_1925.html">NFPA 1925</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>NFPA Codes
+                    <!--    <ul class="hidden">
+                            <li><a href="nfpa_11.html">NFPA 11</a></li>
+                            <li><a href="nfpa_16.html">NFPA 16</a></li>
+                            <li><a href="nfpa_25.html">NFPA 25</a></li>
+                            <li><a href="nfpa_30.html">NFPA 30</a></li>
+                            <li><a href="nfpa_409.html">NFPA 409</a></li>
+                            <li><a href="nfpa_418.html">NFPA 418</a></li>
+                            <li><a href="nfpa_1925.html">NFPA 1925</a></li>
+                        </ul>-->
+                    </li> 
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <h4>Foam Proportioner Testing HEF and AFFF Systems</h4>
-    <h2>An Eco Friendly Company</h2>
-    <h3>Doing Eco Friendly Testing</h3>
-    <ul>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-    </ul>
+            </nav>
+            <h4>Foam Proportioner Testing HEF and AFFF Systems</h4>
+            <h2>An Eco Friendly Company</h2>
+            <h3>Doing Eco Friendly Testing</h3>
+            <ul id="ind-header-btn">
+                <li><a id="btn-about" href="about.html">About Us</a></li>
+                <li><a id="btn-contact" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
 </header>
-<section>
-    <article>
-        <h3>About Our<br>Company</h3>
-        <p>-Working Since 2006</p>
-        <p>Our company offers the most cost effective, environmentally
-        friendly solution to your annual foam proportioner testing.</p>
-        <a href="about.html">Read More</a>
-    </article>
-    <article>
-        <img src="images/thumbnail_Tank.jpg" alt="Example of a foam proportioner tank.">
-    </article>
-    <article>
-        <h3>Benefits Using<br>Our Process</h3>
-        <ul>
-            <li>Saves on cost of using foam concentrate</li>
-            <li>Water only testing which has no environment impacts, clean-up concerns, and containment/disposal costs</li>
-            <li>Ability to allow system to operate for longer periods of time while only flowing water</li>
-            <li>Ability to vary the system operating parameters over a wide range of flow rates</li>
-            <li>Simple set-up of equipment and ease of conducting tests</li>
-            <li>Meeting manufacturer's requirements for flushing the system with water</li>
-            <li>Overall reduction in risk of poor system performance</li>
-        </ul>
-    </article>
-</section>
-<section>
-    <h3>Testimonials</h3>
-    <h2>What Our Clients Say About Us</h2>
-    <section>
+<section class="wrapper">
+    <div class="container">
         <article>
-            <h5>Name Here</h5>
-            <h6>Business Owner</h6>
-            <p>I am beyond impressed with Foam Solutions LLC. They
-                have tremendous customer support, and there process
-                is environmentally friendly, and saves us a lot of money!</p>
+            <h3>About Our<br>Company</h3>
+            <p>-Working Since 2006</p>
+            <p>Our company offers the most cost effective, environmentally
+            friendly solution to your annual foam proportioner testing.</p>
+            <a href="about.html">Read More</a>
         </article>
         <article>
-            <h5>Name Here</h5>
-            <h6>Business Owner</h6>
-            <p>I am beyond impressed with Foam Solutions LLC. They
-                have tremendous customer support, and there process
-                is environmentally friendly, and saves us a lot of money!</p>
+            <img src="images/thumbnail_Tank.jpg" alt="Example of a foam proportioner tank.">
         </article>
-    </section>
+        <article>
+            <h3>Benefits Using<br>Our Process</h3>
+            <ul>
+                <li>Saves on cost of using foam concentrate</li>
+                <li>Water only testing which has no environment impacts, clean-up concerns, and containment/disposal costs</li>
+                <li>Ability to allow system to operate for longer periods of time while only flowing water</li>
+                <li>Ability to vary the system operating parameters over a wide range of flow rates</li>
+                <li>Simple set-up of equipment and ease of conducting tests</li>
+                <li>Meeting manufacturer's requirements for flushing the system with water</li>
+                <li>Overall reduction in risk of poor system performance</li>
+            </ul>
+        </article>
+    </div>
 </section>
-<section>
+<section class="wrapper">
+    <div class="container">
+        <h3>Testimonials</h3>
+        <h2>What Our Clients Say About Us</h2>
+        <section>
+            <article>
+                <h5>Name Here</h5>
+                <h6>Business Owner</h6>
+                <p>I am beyond impressed with Foam Solutions LLC. They
+                    have tremendous customer support, and there process
+                    is environmentally friendly, and saves us a lot of money!</p>
+            </article>
+            <article>
+                <h5>Name Here</h5>
+                <h6>Business Owner</h6>
+                <p>I am beyond impressed with Foam Solutions LLC. They
+                    have tremendous customer support, and there process
+                    is environmentally friendly, and saves us a lot of money!</p>
+            </article>
+        </section>
+    </div>
+</section>
+<section class="wrapper">
+    <div class="container">
     <h2>Where We Service</h2>
     <article>
         <img src="images/company_map.png" alt="Locations we accept clients in.">
@@ -94,17 +103,20 @@
             Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
             Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
     </article>
+    </div>
 </section>
-<footer>
-    <article>
-        <p>© 2017 Foam Solutions, LLC FM Certified and Patented Foam Proportioner Testing.</p>
-    </article>
-    <article>
-        <ul>
-            <li>2251 Performance Parkway,<br>Columbus, OH 43207</li>
-            <li>(614)-586-1326</li>
-        </ul>
-    </article>
+<footer class="wrapper">
+    <div class="container">
+        <article>
+            <p>© 2017 Foam Solutions, LLC FM Certified and Patented Foam Proportioner Testing.</p>
+        </article>
+        <article>
+            <ul>
+                <li>2251 Performance Parkway,<br>Columbus, OH 43207</li>
+                <li>(614)-586-1326</li>
+            </ul>
+        </article>
+    </div>
 </footer>
 </body>
 </html>
