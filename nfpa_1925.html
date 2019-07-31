@@ -12,12 +12,12 @@
 <header class="wrapper">
     <div class="container">
         <nav>
-            <a href="index.html"><img src="images/Logo.png" alt="Company Logo"></a>
+            <img src="images/Logo.png" alt="Company Logo">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">NFPA Codes</a>
-                    <ul>
+                <li class="active"><a class="main-nav" href="index.html">Home</a></li>
+                <li><a class="main-nav" href="about.html">About</a></li>
+                <li class="parent"><a href="#">NFPA Codes</a>
+                    <ul class="child">
                         <li><a href="nfpa_11.html">NFPA 11</a></li>
                         <li><a href="nfpa_16.html">NFPA 16</a></li>
                         <li><a href="nfpa_25.html">NFPA 25</a></li>
@@ -25,9 +25,9 @@
                         <li><a href="nfpa_409.html">NFPA 409</a></li>
                         <li><a href="nfpa_418.html">NFPA 418</a></li>
                         <li><a href="nfpa_1925.html">NFPA 1925</a></li>
-                    </ul>
+                    </ul>                  
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a class="main-nav" href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <h2>NFPA Code 1925</h2>
@@ -71,11 +71,11 @@
     </div>
 </section>
 <footer class="wrapper">
-    <div class="container">
-        <article>
+    <div id="footer" class="container row">
+        <article class="two-column">
             <p>© 2017 Foam Solutions, LLC FM Certified and Patented Foam Proportioner Testing.</p>
         </article>
-        <article>
+        <article class="two-column">
             <ul>
                 <li>2251 Performance Parkway,<br>Columbus, OH 43207</li>
                 <li>(614)-586-1326</li>

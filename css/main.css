@@ -3,6 +3,12 @@ html{
     background-color: whitesmoke;
     font-family: "Agenda", "Times New Roman";
 }
+html p {
+    line-height: 2rem;
+}
+img {
+    max-width: 100%;
+}
 h2 {
     font-size: 3.5rem;
 }
@@ -23,6 +29,9 @@ img {
     background-color: gray;
     margin-left: auto;
     margin-right: auto;
+}
+.container:after{
+    clear: both;
 }
 .hidden {
     font-size: 0rem;
@@ -49,6 +58,9 @@ nav ul li a {
     text-decoration: none;
     color: lightslategray;
 }
+.main-nav:hover {
+    border-bottom: 2px solid #0170BB;
+}
 nav ul li {
     display: inline-block;
     padding-right: 2rem;
@@ -59,9 +71,31 @@ nav ul li {
 nav ul li .active {
     background-color: #aaaaaa;
 }
+nav ul li.parent ul.child {
+    display: none;
+    padding-top: 0rem !important;
+}
+nav ul li.parent:hover ul.child {
+    display: block !important;
+    position: absolute;
+    top: 5rem;
+    background: #fafafa;
+}
+nav ul li.parent ul.child li {
+    width: 9.8rem;
+    display: block;
+    padding: .5rem;
+}
+nav ul li.parent ul.child li:hover {
+    background: lightgray;
+}
+nav ul li.parent ul.child li a {
+    padding-top: 1rem !important;
+}
 .index-header {
-    background: red url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/frank-mckenna-127338-unsplash.jpg') no-repeat;
+    background: gray url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/Group%2043.png') no-repeat;
     background-size: 100%;
+    color: white;
 }
 .index-header h4 {
     padding-top: 10rem;
@@ -84,7 +118,200 @@ nav ul li .active {
     border: 2px solid white;
     border-radius: .6rem;
 }
+#btn-about:hover, #btn-contact:hover {
+    background-color: lightgray;
+}
 #btn-about{
     margin-right: 10rem;
     background-color: #0170BB;    
 }
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+#ind-about-us {
+    background-color: white;
+}
+#ind-about-us img {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 3rem;
+}
+.left, .middle {
+    width: 30%
+}
+.right {
+    width: 40%;
+}
+.row:after {
+    width: 900px;
+    content: "";
+    display: table;
+    clear: both;
+}
+#column-one, #column-three p, #column-three ul li{
+    font-size: 1.6rem;
+    list-style-type: circle;
+}
+#column-one h3, #column-three h3 {
+    text-transform: uppercase;
+}
+#column-one h3, p {
+    text-align: left;
+    padding-left: 4rem;
+}
+#column-one {
+    margin-top: 3rem;
+}
+#column-one p {
+    padding-bottom: 1.5rem;
+}
+#column-one a {
+    background-color: #0170BB;
+    color: white;
+    padding: .5rem 1rem .5rem 1rem;
+    margin-left: 30%;
+}
+#column-two img {
+    margin-top: 5rem;
+    height: 20rem;
+    width: 17rem;
+    border: 6px solid #01D1D5;
+}
+#column-three h3 {
+    padding-bottom: 1.5rem;
+}
+#column-three ul li {
+    padding-bottom: .5rem;
+}
+#testimonials {
+    background: #0170BB url('../images/Group\ 46.png') no-repeat center;
+}
+#testimonials h2 {
+    padding-top: 2rem;
+    color: white;
+    font-weight: 30%;
+}
+#testimonials h5, #testimonials h6 {
+    text-align: center;
+    color: white;
+}
+#testimonials h5 {
+    font-size: 2.8rem;
+    margin-top: 5rem;
+}
+#testimonials h6 {
+    font-size: 1.6rem;
+}
+#testimonials img {
+    display: block;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+}
+#testimonials p {
+    text-align: center;
+    color: white;
+    display: block;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3rem;
+}
+.two-column {
+    float:left;
+    width: 50%;
+}
+#locations {
+    background-color: white;
+    padding-bottom: 2rem;
+}
+#locations h2 {
+    background-color: #0170BB;
+    margin-top: 2rem;
+    float: right;
+    padding: .5rem 25rem .5rem 1rem;
+    color: white;
+}
+#locations img {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 100%;
+}
+#locations h4 {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2.8rem;
+    color: gray;
+    padding-bottom: 1rem;
+}
+#locations p {
+    font-size: 1.8rem;
+    width: 90%;
+    text-align: center;
+}
+#footer {
+    background-color: #0170BB;
+    color: white;
+    font-size: 1.4rem;
+}
+#footer p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#footer ul{
+    float: right;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+}
+#footer ul li {
+    padding-bottom: .5rem;
+}
+#about-header {
+    background: lightgray url('../images/Group\ 43.png') no-repeat center;
+    color: white;
+}
+#about-header h2 {
+    margin-top: 12rem;
+}
+#about-header h4 {
+    text-align: center;
+    padding-bottom: 12rem;
+}
+.about-section {
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.about-section-one img {
+    width: 86%;
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+.about-section-two h3 {
+    float: right;
+    display: block;
+    margin-top: 2rem;
+    padding: .5rem 14rem .5rem 14rem;
+    background-color: #0170BB;
+    color: white;
+}
+.about-section-two article {
+    clear: right;
+}
+.about-section-two p {
+    display: inline-block;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-right: 3rem;
+    line-height: 2rem;
+}
+

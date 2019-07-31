@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673d8895-a7fc-423b-b4d4-b671d124908a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nfpa_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/nfpa_11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nfpa_16.html" beforeDir="false" afterPath="$PROJECT_DIR$/nfpa_16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nfpa_1925.html" beforeDir="false" afterPath="$PROJECT_DIR$/nfpa_1925.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nfpa_25.html" beforeDir="false" afterPath="$PROJECT_DIR$/nfpa_25.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nfpa_30.html" beforeDir="false" afterPath="$PROJECT_DIR$/nfpa_30.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nfpa_409.html" beforeDir="false" afterPath="$PROJECT_DIR$/nfpa_409.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nfpa_418.html" beforeDir="false" afterPath="$PROJECT_DIR$/nfpa_418.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +21,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+                <state relative-caret-position="408">
+                  <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -69,7 +58,7 @@
             <entry file="file://$PROJECT_DIR$/nfpa_16.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="432">
-                  <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+                  <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -186,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,10 +187,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -244,11 +234,12 @@
       <workItem from="1564075146557" duration="64000" />
       <workItem from="1564166905807" duration="2122000" />
       <workItem from="1564275705093" duration="918000" />
+      <workItem from="1564427715354" duration="1218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14125000" />
+    <option name="totallyTimeSpent" value="15343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -276,6 +267,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -294,6 +295,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfpa_16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -332,34 +340,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nfpa_16.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
         </state>
       </provider>
     </entry>
