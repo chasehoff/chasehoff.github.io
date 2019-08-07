@@ -1,317 +1,222 @@
-html{
-    font-size: 62.5%;
-    background-color: whitesmoke;
-    font-family: "Agenda", "Times New Roman";
-}
-html p {
-    line-height: 2rem;
+html {
+
 }
 img {
     max-width: 100%;
 }
-h2 {
-    font-size: 3.5rem;
-}
-h3 {
-    font-size: 2.5rem;
-}
-h4 {
-    font-size: 1.6rem;
-}
-img {
-    max-width: 100%;
-}
-.wrapper {
-    width: 100%;
-}
-.container {
-    max-width: 900px;
-    background-color: gray;
-    margin-left: auto;
-    margin-right: auto;
-}
-.container:after{
-    clear: both;
-}
-.hidden {
-    font-size: 0rem;
-}
-nav {
-    width: 100%;
+#crh-nav-styles {
     background-color: white;
-    clear: right;
-    padding-bottom: 7rem;
-    object-fit: contain;
+    padding: 0rem 3rem 0rem 3rem;
 }
-nav img {
-    float: left;
-    height: 65.75px;
-    width: 115.25;
-    padding-left: 2rem;
-}
-nav ul {
-    float: right;
-    vertical-align: middle;
-    padding-top: 3rem;
-}
-nav ul li a {
-    text-decoration: none;
-    color: lightslategray;
-}
-.main-nav:hover {
+#crh-nav-styles ul .nav-item .nav-link:hover {
     border-bottom: 2px solid #0170BB;
 }
-nav ul li {
-    display: inline-block;
-    padding-right: 2rem;
-    font-size: 1.8rem;
-    color: lightslategrey;
-    text-transform: uppercase;
+#crh-index-header {
+    background: gray url('../images/Group\ 43.png') center no-repeat;
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 4rem;
 }
-nav ul li .active {
-    background-color: #aaaaaa;
-}
-nav ul li.parent ul.child {
-    display: none;
-    padding-top: 0rem !important;
-}
-nav ul li.parent:hover ul.child {
-    display: block !important;
-    position: absolute;
-    top: 5rem;
-    background: #fafafa;
-}
-nav ul li.parent ul.child li {
-    width: 9.8rem;
-    display: block;
-    padding: .5rem;
-}
-nav ul li.parent ul.child li:hover {
-    background: lightgray;
-}
-nav ul li.parent ul.child li a {
-    padding-top: 1rem !important;
-}
-.index-header {
-    background: gray url('https://raw.githubusercontent.com/chasehoff/chasehoff.github.io/master/images/Group%2043.png') no-repeat;
-    background-size: 100%;
+#crh-index-header h4, #crh-index-header h2, #crh-index-header h3 {
+    text-align: center;
     color: white;
 }
-.index-header h4 {
-    padding-top: 10rem;
-}
-.index-header h3 {
-    padding-bottom: 6rem;
-}
-.index-header h4, h2, h3 {
-    text-align: center;
+#crh-index-header h3 {
+    padding-bottom: 2rem;
 }
 #ind-header-btn {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 8rem;
+    display: block;
+    margin-left: 40%;
 }
-#btn-about, #btn-contact {
-    font-size: 1.8rem;
-    color: white;
-    padding: 1rem 3rem 1rem 3rem;
+#ind-header-btn li {
+    display: inline-block;
+}
+#ind-header-btn li:nth-of-type(1) a {
+    margin-right: 5rem;
+    color:white;
+    background-color: #0170BB;
     border: 2px solid white;
-    border-radius: .6rem;
+    border-radius: 5px;
+    padding: .5rem 1rem .5rem 1rem;
 }
-#btn-about:hover, #btn-contact:hover {
+#ind-header-btn li:nth-of-type(2) a {
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: .5rem 1rem .5rem 1rem;
+}
+#ind-header-btn li:nth-of-type(1) a:hover, #ind-header-btn li:nth-of-type(2) a:hover {
+    text-decoration: none;
     background-color: lightgray;
 }
-#btn-about{
-    margin-right: 10rem;
-    background-color: #0170BB;    
-}
-.flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20rem;
-}
 #ind-about-us {
-    background-color: white;
+    padding-top: 2rem;
 }
-#ind-about-us img {
-    width: 40%;
-    margin-right: auto;
-    margin-left: auto;
-}
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 3rem;
-}
-.left, .middle {
-    width: 30%
-}
-.right {
-    width: 40%;
-}
-.row:after {
-    width: 900px;
-    content: "";
-    display: table;
-    clear: both;
-}
-#column-one, #column-three p, #column-three ul li{
-    font-size: 1.6rem;
-    list-style-type: circle;
-}
-#column-one h3, #column-three h3 {
+#column-one h3, #column-one p:nth-of-type(1) {
     text-transform: uppercase;
-}
-#column-one h3, p {
-    text-align: left;
-    padding-left: 4rem;
+    color: grey;
 }
 #column-one {
-    margin-top: 3rem;
-}
-#column-one p {
-    padding-bottom: 1.5rem;
+    margin-top: 5rem;
 }
 #column-one a {
-    background-color: #0170BB;
+    text-decoration: none;
     color: white;
-    padding: .5rem 1rem .5rem 1rem;
-    margin-left: 30%;
+    background-color: #0170BB;
+    padding: .4rem .8rem .4rem .8rem;
+    margin-left: 2rem;
+}
+#column-one a:hover {
+    background-color: lightgray;
 }
 #column-two img {
-    margin-top: 5rem;
-    height: 20rem;
-    width: 17rem;
-    border: 6px solid #01D1D5;
+    border: 8px solid #01D1D5;
+    margin-top: 3rem;
 }
 #column-three h3 {
-    padding-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+}
+#column-three ul {
+    padding-left: 3rem;
 }
 #column-three ul li {
-    padding-bottom: .5rem;
+    list-style-type: circle !important;
 }
 #testimonials {
-    background: #0170BB url('../images/Group\ 46.png') no-repeat center;
+    background: #0170BB url('../images/Group\ 46.png') center no-repeat;
+    background-size: cover;
 }
 #testimonials h2 {
+    text-align: center;
     padding-top: 2rem;
     color: white;
-    font-weight: 30%;
 }
-#testimonials h5, #testimonials h6 {
-    text-align: center;
+#testimonials article h5 {
+    padding-top: 2rem;
+}
+#testimonials article h5, h6 {
     color: white;
+    text-align: center;
 }
-#testimonials h5 {
-    font-size: 2.8rem;
-    margin-top: 5rem;
-}
-#testimonials h6 {
-    font-size: 1.6rem;
-}
-#testimonials img {
+#testimonials article img {
     display: block;
-    margin-top: 2rem;
-    margin-right: auto;
     margin-left: auto;
-    margin-bottom: 2rem;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 #testimonials p {
     text-align: center;
     color: white;
-    display: block;
-    max-width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 3rem;
-}
-.two-column {
-    float:left;
-    width: 50%;
 }
 #locations {
-    background-color: white;
     padding-bottom: 2rem;
 }
 #locations h2 {
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+}
+#locations article:nth-child(2) a {
+    text-decoration: none;
+    margin-left: 41%;
     background-color: #0170BB;
-    margin-top: 2rem;
-    float: right;
-    padding: .5rem 25rem .5rem 1rem;
-    color: white;
+    color:white;
+    padding: .4rem .8rem .4rem .8rem;
+}
+#locations article:nth-child(2) a:hover {
+    background-color: lightgray;
 }
 #locations img {
+    float: right;
+    height: 300px;
+    width: 400px;
     margin-top: 2rem;
-    margin-left: 3rem;
-    width: 100%;
+    border-left: 5px solid #0170BB;
 }
-#locations h4 {
-    margin-top: 3rem;
-    text-align: center;
-    font-size: 2.8rem;
-    color: gray;
-    padding-bottom: 1rem;
-}
-#locations p {
-    font-size: 1.8rem;
-    width: 90%;
-    text-align: center;
-}
-#footer {
+footer {
     background-color: #0170BB;
     color: white;
-    font-size: 1.4rem;
+    font-size: .8rem;
 }
-#footer p {
+footer p {
+    padding-top: 1rem;
+}
+footer article:nth-of-type(2) ul {
+    padding-top: .5rem;
+    float: right;
+}
+#crh-about-styles {
+    background: gray url('../images/Group\ 43.png') center no-repeat;
+    background-size: cover;
+}
+#crh-about-styles h2, #crh-about-styles h4 {
+    color: white;
+    text-align: center;
+}
+#crh-about-styles h2 {
+    padding-top: 15rem;
+}
+#crh-about-styles h4 {
+    padding-bottom: 8rem;
+}
+#crh-about-two {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-#footer ul{
-    float: right;
-    padding-top: 1.5rem;
-    padding-right: 2rem;
-}
-#footer ul li {
-    padding-bottom: .5rem;
-}
-#about-header {
-    background: lightgray url('../images/Group\ 43.png') no-repeat center;
-    color: white;
-}
-#about-header h2 {
-    margin-top: 12rem;
-}
-#about-header h4 {
-    text-align: center;
-    padding-bottom: 12rem;
-}
-.about-section {
-    background-color: white;
-    padding-bottom: 2rem;
-}
-.about-section-one img {
-    width: 86%;
-    margin-top: 6rem;
-    margin-left: 3rem;
-}
-.about-section-two h3 {
-    float: right;
+#crh-about-two article:nth-of-type(1) h3 {
+    margin-top: .5rem;
     display: block;
-    margin-top: 2rem;
-    padding: .5rem 14rem .5rem 14rem;
-    background-color: #0170BB;
+    text-align: center;
+    background: #0170BB;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
     color: white;
 }
-.about-section-two article {
-    clear: right;
-}
-.about-section-two p {
-    display: inline-block;
-    font-size: 1.6rem;
+#crh-about-two article:nth-of-type(1) p {
     text-align: center;
-    margin-top: 2rem;
-    padding-right: 3rem;
-    line-height: 2rem;
 }
-
+#crh-about-two article:nth-of-type(2) iframe {
+    border-right: 5px solid #0170BB;
+}
+#crh-about-three {
+    background: lightgray url('../images/Group\ 46.png') center no-repeat;
+    background-size: cover;
+}
+#crh-about-three img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-left: 5px solid #0170BB;
+}
+#crh-about-three h3 {
+    display: block;
+    text-align: center;
+    background-color: white;
+    margin-top: 3rem;
+    color: #0170BB;
+}
+#crh-about-three p {
+    text-align: center;
+    color: white;
+}
+#crh-about-three button {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: .4rem .8rem .4rem .8rem;
+    border: 2px solid white;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0,0,0,0);
+}
+#crh-about-three button:hover {
+    background-color: lightgray;
+}
+#crh-about-four h3 {
+    text-align: center;
+}
+#crh-about
